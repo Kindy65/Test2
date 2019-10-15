@@ -58,5 +58,5 @@ Before pushing your new commits to server, try this command and it will automati
 sync latest server changes (with a fetch + merge) and will place your commit at the top in git log. 
 No need to worry about manual pull/merge.
 
-
+penting untuk dibaca:
 https://stackoverflow.com/questions/292357/what-is-the-difference-between-git-pull-and-git-fetch?rq=1
