@@ -51,3 +51,5 @@ git checkout 7667b (5digit pertama dari commit hash) -- style.css ( untuk mengem
 vim (editor)
 
 test
+apa lagi...
+
