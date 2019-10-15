@@ -53,3 +53,5 @@ vim (editor)
 test
 apa lagi...
 
+test git pull
+
