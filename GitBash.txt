@@ -1,9 +1,10 @@
 Git Status
 Git Clone https://github.com/Kindy65/Test2.git
 
-Git Add . (untuk tambah file baru ke git )
+Git Add . (untuk tambah file baru ke git / untrack file)
 Git Commit -m (-am) utk commit perubahan2 ke Git
 Git Push (untuk commit perubahan2 ke GitHub)
+git log -10
 
 alias graph="git log --all --decorate --oneline --graph" ( untuk membuat visualisasi dari perubahan2/commit2 yg sudah terjadi )
 git fetch ( untuk mengecek apakah ada perubahan di github )
@@ -19,11 +20,32 @@ ls (list)
 clear
 mkdir (utk buat directory baru)
 cd 
+:quit
+pwd ( utk lihat folder dari repo )
 
 git config --list
-git config --global user.name="endroe"
-git config --global user.email="kindy65@gmail.com)
+git config --global user.name "endroe"
+git config --global (--local) user.email "kindy65@gmail.com"
 
 git restore (untuk restore dari commit sblmnya)
+git checkout 7667b (5digit pertama dari commit hash) -- style.css ( untuk mengembalikan kondisi file pada suatu titik commit tertentu )
 
 
+3 Area pada Repo Git
+1. working tree  ( folder local kita )
+   |
+   |
+   v
+   git add
+   |
+   |
+   v
+2. Staging area (.git )
+   |
+   |
+   v
+   git commit 
+3. History (.git )
+
+
+vim (editor)
